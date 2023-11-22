@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #c5ebd6;
+    --cor0: #c5ebd6;
+    --cor0: #c5ebd6;
+    --cor0: #c5ebd6;
+    --cor0: #c5ebd6;
+    --cor0: #c5ebd6;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    
+}
+
 body{
     background-color: #c5ebd6;
 }
