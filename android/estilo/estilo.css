@@ -3,14 +3,13 @@
 /*Fonte*/
 @font-face {
     font-family: 'idroid';
-    src: url(/fontes/idroid.otf) format('opentype');
+    src: url(../fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 
-*/
 
 :root {
-    --cor0:#ff2600;
+    --cor0:#0004ff;
     --cor1:#79A3D9;
     --cor2:#9AB5D9;
     --cor3:#F2F2F2;
@@ -20,9 +19,26 @@
     --fonte-destaque: 'Bebas Neue', cursive;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor2);
+}
+
+header > nav {
+    background-color: var(--cor1);
+}
+
+header > p {
+    color: var(--cor3);
 }
 
 header > h1 {
@@ -30,13 +46,19 @@ header > h1 {
     font-family: var(--fonte-destaque);
 }
 
-p {
-    font-family: "Bebas Neue", var(--fonte-padrao);
-    font-weight: 400;
-    font-style: normal;
+main {
+    background-color:var(--cor3);
 }
 
 main h1 {
     font-family: idroid;
 }
+
+main h2 {
+    font-family: idroid;
+}
   
+footer {
+    background-color: var(--cor0);
+    color: var(--cor3);
+}
