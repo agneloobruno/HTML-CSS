@@ -3,7 +3,7 @@
 /*Fonte*/
 @font-face {
     font-family: 'idroid';
-    src: url(/fontes/idroid.otf) format('opentype');
+    src: url(../fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -24,6 +24,11 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -173,4 +178,12 @@ footer {
     color: white;
     text-align: center;
 }
+
+main h2 {
+    font-family: idroid;
+}
   
+footer {
+    background-color: var(--cor0);
+    color: var(--cor3);
+}
